@@ -1,0 +1,34 @@
+{
+  "name": "react-native-photo-zoom",
+  "version": "1.0.0",
+  "description": "Displaying photos with pinch-to-zoom",
+  "main": "index.js",
+  "author": {
+    "name": "Trabricks LLC",
+    "email": "apps@trabricks.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "gallery",
+    "lightbox",
+    "pinch",
+    "pinch-to-zoom",
+    "mobile",
+    "zoom"
+  ],
+  "homepage": "https://github.com/trabricks/react-native-photo-zoom",
+  "bugs": {
+    "url": "https://github.com/trabricks/react-native-photo-zoom/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trabricks/react-native-photo-zoom.git"
+  },
+  "dependencies": {
+    "react-native": "*"
+  }
+}
