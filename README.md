@@ -37,6 +37,7 @@ Basics:
 ###Compared to react-native-photo-view
 react-native-photo-view functionality is similar, but there are several major differencies:
 - PhotoZoom used SDWebImage (Fast)
+- New version of MWPhotobrowser
 
 
 ## Properties
