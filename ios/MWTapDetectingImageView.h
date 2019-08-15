@@ -1,12 +1,14 @@
 //
-//  UIImageViewTap.h
-//  Momento
+//  MWTapDetectingImageView.h
+//  react-native-photo-zoom
 //
-//  Created by Michael Waterfall on 04/11/2009.
-//  Copyright 2009 d3i. All rights reserved.
+//  Created by Suhan Moon on 15/08/2019.
 //
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol MWTapDetectingImageViewDelegate;
 
@@ -25,3 +27,5 @@
 - (void)imageView:(UIImageView *)imageView tripleTapDetected:(UITouch *)touch;
 
 @end
+
+NS_ASSUME_NONNULL_END

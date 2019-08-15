@@ -1,16 +1,18 @@
 //
-//  UIViewTap.h
-//  Momento
+//  MWTapDetectingView.h
+//  react-native-photo-zoom
 //
-//  Created by Michael Waterfall on 04/11/2009.
-//  Copyright 2009 d3i. All rights reserved.
+//  Created by Suhan Moon on 15/08/2019.
 //
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol MWTapDetectingViewDelegate;
 
-@interface MWTapDetectingView : UIView {}
+@interface MWTapDetectingView : UIView
 
 @property (nonatomic, weak) id <MWTapDetectingViewDelegate> tapDelegate;
 
@@ -25,3 +27,5 @@
 - (void)view:(UIView *)view tripleTapDetected:(UITouch *)touch;
 
 @end
+
+NS_ASSUME_NONNULL_END

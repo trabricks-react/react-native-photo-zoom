@@ -3,6 +3,7 @@
 #import "MWTapDetectingImageView.h"
 #import "MWTapDetectingView.h"
 #import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/SDWebImageDownloader.h>
 
 @class RCTBridge;
 
