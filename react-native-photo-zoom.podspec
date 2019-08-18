@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.license         = package['license']
   s.source          = { :git => "https://github.com/trabricks/react-native-photo-zoom.git", :tag => "v#{s.version}" }
   s.source_files    = "ios/*.{h,m}"
+  s.platforms       = { :ios => "8.0", :tvos => "9.0" }
 
   s.frameworks = 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MediaPlayer'
   s.weak_frameworks = 'Photos'

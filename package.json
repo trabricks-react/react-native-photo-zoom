@@ -1,6 +1,6 @@
 {
   "name": "react-native-photo-zoom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Displaying photos with pinch-to-zoom",
   "main": "index.js",
   "author": {
