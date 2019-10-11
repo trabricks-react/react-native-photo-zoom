@@ -3,19 +3,25 @@ import { ImageSourcePropType, ViewProps } from 'react-native';
 
 declare module 'react-native-photo-zoom' {
 	export interface PhotoZoomProgressInfo {
-		loaded: number;
-		total: number
+		nativeEvent: {
+			loaded: number;
+			total: number;
+		}
 	}
 
 	export interface PhotoZoomTapInfo {
-		point: {
-			x: number;
-			y: number;
-		};
+		nativeEvent: {
+			point: {
+				x: number;
+				y: number;
+			};
+		}
 	}
 
 	export interface PhotoZoomScaleInfo {
-		scale: number;
+		nativeEvent: {
+			scale: number;
+		}
 	}
 
 	export interface PhotoZoomProps extends ViewProps {
