@@ -40,9 +40,10 @@ declare module 'react-native-photo-zoom' {
 		onScale?: (scaleInfo: PhotoZoomScaleInfo) => void;
 		showHorizontalScrollIndicator?: boolean;
 		showVerticalScrollIndicator?: boolean;
-		androidScaleType: 'center'|'centerCrop'|"centerInside"| "fitCenter"| "fitStart"| "fitEnd"| "fitXY"| "matrix";
-		androidZoomTransitionDuration:number;
+		androidScaleType: 'center' | 'centerCrop' | 'centerInside' | 'fitCenter' | 'fitStart' | 'fitEnd' | 'fitXY' | 'matrix';
+		androidZoomTransitionDuration: number;
 	}
 
-	export default class PhotoZoom extends React.Component<PhotoZoomProps>{}
+	export default class PhotoZoom extends React.Component<PhotoZoomProps> {
+	}
 }
