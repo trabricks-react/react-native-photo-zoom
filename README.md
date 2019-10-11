@@ -18,12 +18,12 @@ This component uses
 
 ## Usage
 
-```javascript
+```typescript jsx
 import PhotoZoom from 'react-native-photo-zoom';
 ```
 
 Basics:
-```javascript
+```typescript jsx
 <PhotoZoom
   source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
   minimumZoomScale={0.5}
@@ -44,23 +44,23 @@ react-native-photo-view functionality is similar, but there are several major di
 
 | Property | Type | Description |
 |-----------------|----------|--------------------------------------------------------------|
-| source | Object | same as source for other React images |
+| source | Object, number | same as source for other React images |
 | loadingIndicatorSource | Object | source for loading indicator |
-| fadeDuration | int | duration of image fade (in ms) |
-| minimumZoomScale | float | The minimum allowed zoom scale. The default value is 1.0 |
-| maximumZoomScale | float | The maximum allowed zoom scale. The default value is 3.0 |
-| showsHorizontalScrollIndicator | bool | **iOS only**: When true, shows a horizontal scroll indicator. The default value is true. |
-| showsVerticalScrollIndicator | bool | **iOS only**: When true, shows a vertical scroll indicator. The default value is true. |
-| scale | float | Set zoom scale programmatically |
-androidZoomTransitionDuration | int | **Android only**: Double-tap zoom transition duration |
-| androidScaleType | String | **Android only**: One of the default *Android* scale types: "center", "centerCrop", "centerInside", "fitCenter", "fitStart", "fitEnd", "fitXY" |
-| onLoadStart | func | Callback function |
-| onLoad | func | Callback function |
-| onLoadEnd | func | Callback function |
-| onProgress | func | **iOS only**: Callback function, invoked on download progress with {nativeEvent: {loaded, total}}. |
-| onTap | func | Callback function (called on image tap) |
-| onViewTap | func | Callback function (called on tap outside of image) |
-| onScale | func | Callback function |
+| fadeDuration | number | duration of image fade (in ms) |
+| minimumZoomScale | number | The minimum allowed zoom scale. The default value is 1.0 |
+| maximumZoomScale | number | The maximum allowed zoom scale. The default value is 3.0 |
+| showsHorizontalScrollIndicator | boolean | **iOS only**: When true, shows a horizontal scroll indicator. The default value is true. |
+| showsVerticalScrollIndicator | boolean | **iOS only**: When true, shows a vertical scroll indicator. The default value is true. |
+| scale | number | Set zoom scale programmatically |
+androidZoomTransitionDuration | number | **Android only**: Double-tap zoom transition duration |
+| androidScaleType | string | **Android only**: One of the default *Android* scale types: "center", "centerCrop", "centerInside", "fitCenter", "fitStart", "fitEnd", "fitXY" |
+| onLoadStart | function | Callback function |
+| onLoad | function | Callback function |
+| onLoadEnd | function | Callback function |
+| onProgress | function | **iOS only**: Callback function, invoked on download progress with {nativeEvent: {loaded, total}}. |
+| onTap | function | Callback function (called on image tap) |
+| onViewTap | function | Callback function (called on tap outside of image) |
+| onScale | function | Callback function |
 
 ## Automatic installation
 

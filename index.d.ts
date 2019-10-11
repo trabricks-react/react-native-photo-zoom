@@ -12,12 +12,10 @@ declare module 'react-native-photo-zoom' {
 			x: number;
 			y: number;
 		};
-		target: ImageSourcePropType;
 	}
 
 	export interface PhotoZoomScaleInfo {
 		scale: number;
-		target: ImageSourcePropType;
 	}
 
 	export interface PhotoZoomProps extends ViewProps {
@@ -36,6 +34,8 @@ declare module 'react-native-photo-zoom' {
 		onScale?: (scaleInfo: PhotoZoomScaleInfo) => void;
 		showHorizontalScrollIndicator?: boolean;
 		showVerticalScrollIndicator?: boolean;
+		androidScaleType: 'center'|'centerCrop'|"centerInside"| "fitCenter"| "fitStart"| "fitEnd"| "fitXY"| "matrix";
+		androidZoomTransitionDuration:number;
 	}
 
 	export default class PhotoZoom extends React.Component<PhotoZoomProps>{}
