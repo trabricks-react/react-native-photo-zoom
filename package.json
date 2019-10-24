@@ -29,6 +29,10 @@
     "url": "git://github.com/trabricks/react-native-photo-zoom.git"
   },
   "dependencies": {
+    "react": "*",
     "react-native": "*"
+  },
+  "devDependencies": {
+    "prop-types": "*"
   }
 }
