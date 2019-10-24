@@ -8,7 +8,7 @@
  */
 package com.retizen.photozoom;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.uimanager.events.Event;
 import com.facebook.react.uimanager.events.RCTEventEmitter;

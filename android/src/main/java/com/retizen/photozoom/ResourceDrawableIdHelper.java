@@ -1,6 +1,6 @@
 // Copyright 2004-present Facebook. All Rights Reserved.
 
-package com.reactnative.photoview;
+package com.retizen.photozoom;
 
 import javax.annotation.Nullable;
 
@@ -31,7 +31,7 @@ import com.facebook.common.util.UriUtil;
     name = name.toLowerCase().replace("-", "_");
     if (mResourceDrawableIdMap.containsKey(name)) {
       return mResourceDrawableIdMap.get(name);
-    }` `
+    }
     int id = context.getResources().getIdentifier(
         name,
         "drawable",
