@@ -29,6 +29,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.facebook.fresco:fresco:2.0.0'
-    implementation 'me.relex:photodraweeview:2.0.0'
+    implementation 'com.facebook.fresco:fresco:2.1.0'
+    implementation 'me.relex:photodraweeview:2.1.0'
 }
