@@ -38,8 +38,8 @@ export default class PhotoZoom extends Component {
     };
 
     render() {
-        const source = resolveAssetSource(this.props.source);
-        var loadingIndicatorSource = resolveAssetSource(this.props.loadingIndicatorSource);
+        const source = this.props.source;
+        var loadingIndicatorSource = this.props.loadingIndicatorSource;
 
         if (source &&  source.uri === '') {
             console.warn('source.uri should not be an empty string');
