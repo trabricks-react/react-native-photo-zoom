@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.4",
+    "react-native": "0.69.12",
     "react-native-fast-image": "^7.0.2",
     "react-native-photo-zoom": "git+ssh://git@github.com/trabricks/react-native-photo-zoom.git"
   },
